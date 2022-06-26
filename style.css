@@ -1,0 +1,106 @@
+body {
+    width: 100vw;
+    background-color: rgb(27, 3, 27);
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.inner-wrapper {
+    background-color: rgb(112, 42, 112);
+    width: 80%;
+    min-height: 50vh;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgb(244, 239, 183);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.title {
+    width: 100%;
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 20px 50px;
+}
+
+.no-list {
+    width: 100%;
+    text-align: center;
+}
+
+ol {
+    width: 100%;
+}
+
+li {
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.deleteBtn {
+    background-color: transparent;
+    color: gold;
+    border: none;
+    box-shadow: none;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.addBtn {
+    background-color: rgb(244, 239, 183);
+    width: 25%;
+    color: rgb(27, 3, 27);
+    font-weight: 700;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+
+}
+
+.addBtn:hover {
+    background-color: rgb(243, 235, 145);
+    color: rgb(27, 3, 27);
+}
+
+.form-control {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+
+.form-control::placeholder {
+    color: rgb(27, 3, 27);
+}
